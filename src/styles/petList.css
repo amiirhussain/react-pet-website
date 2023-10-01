@@ -1,0 +1,50 @@
+.pets {
+  padding: 5rem 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pets--container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.pet--box {
+  flex: 1;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background: rgb(244, 243, 243);
+}
+
+.pet--image {
+  width: 200px;
+}
+.pet--title {
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  color: rgb(68, 66, 66);
+}
+.pet--price {
+  letter-spacing: 2px;
+  color: rgb(68, 66, 66);
+}
+@media screen and (max-width: 1300px) {
+  .pets {
+    padding: 3rem 5%;
+    transition: 0.3s ease-in;
+  }
+}
+@media screen and (max-width: 780px) {
+  .pets {
+    padding: 3rem 3%;
+    transition: 0.3s ease-in;
+  }
+}
